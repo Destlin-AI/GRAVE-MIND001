@@ -1,0 +1,328 @@
+{
+  "/": [
+    ".gitignore",
+    "components.json",
+    "D-scan.py",
+    "next.config.mjs",
+    "package.json",
+    "pnpm-lock.yaml",
+    "postcss.config.mjs",
+    "tailwind.config.ts",
+    "tsconfig.json"
+  ],
+  "app": [
+    "globals.css",
+    "layout.tsx"
+  ],
+  "app\\api": [],
+  "app\\api\\agents": [
+    "GitHub.code-workspace",
+    "route.ts"
+  ],
+  "app\\api\\alerts": [
+    "route.ts"
+  ],
+  "app\\api\\analyze-file": [
+    "route.ts"
+  ],
+  "app\\api\\auth": [],
+  "app\\api\\auth\\login": [
+    "route.ts"
+  ],
+  "app\\api\\auth\\me": [
+    "route.ts"
+  ],
+  "app\\api\\brain": [
+    "route.ts"
+  ],
+  "app\\api\\brain\\advanced": [
+    "route.ts"
+  ],
+  "app\\api\\brain\\enhanced": [
+    "route.ts"
+  ],
+  "app\\api\\db": [
+    "route.ts"
+  ],
+  "app\\api\\files": [
+    "route.ts"
+  ],
+  "app\\api\\files\\[filename]": [
+    "route.ts"
+  ],
+  "app\\api\\llm": [
+    "route.ts"
+  ],
+  "app\\api\\messages": [
+    "route.ts"
+  ],
+  "app\\api\\metrics": [
+    "route.ts"
+  ],
+  "app\\api\\models": [
+    "route.ts"
+  ],
+  "app\\api\\notifications": [
+    "route.ts"
+  ],
+  "app\\api\\notifications\\latest": [
+    "route.ts"
+  ],
+  "app\\api\\notifications\\read-all": [
+    "route.ts"
+  ],
+  "app\\api\\notifications\\[id]": [
+    "route.ts"
+  ],
+  "app\\api\\performance": [
+    "route.ts"
+  ],
+  "app\\api\\processes": [
+    "route.ts"
+  ],
+  "app\\api\\share": [
+    "route.ts"
+  ],
+  "app\\api\\share\\[id]": [
+    "route.ts"
+  ],
+  "app\\api\\share\\[id]\\content": [
+    "route.ts"
+  ],
+  "app\\api\\socket": [
+    "route.ts"
+  ],
+  "app\\api\\storage": [
+    "route.ts"
+  ],
+  "app\\api\\tensor": [
+    "route.ts"
+  ],
+  "app\\api\\upload": [
+    "route.ts"
+  ],
+  "app\\api\\weather": [
+    "route.ts"
+  ],
+  "app\\dashboard": [],
+  "app\\dashboard\\acceleration": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\console": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\llm-bay": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\models": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\qwen-tensor": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\settings": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\shared": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\tensor": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\toolmaker": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\uploads": [
+    "page.tsx"
+  ],
+  "app\\login": [
+    "page.tsx"
+  ],
+  "app\\shared": [],
+  "app\\shared\\[id]": [
+    "page.tsx"
+  ],
+  "codyfile": [
+    "brain-control-panel.tsx",
+    "brain-controller.ts",
+    "chat_with_brain.py",
+    "drag-and-drop-uploader.tsx",
+    "integration-engine.ts",
+    "local-storage.ts",
+    "monitor-integrator.ts",
+    "plasma-code-reporter.ts",
+    "use-component-monitor.ts"
+  ],
+  "components": [
+    "accordion.tsx",
+    "agent-swarm-dashboard.tsx",
+    "agent-uploader.tsx",
+    "alert-dialog.tsx",
+    "alert.tsx",
+    "brain-control-panel-advanced.tsx",
+    "brain-control-panel.tsx",
+    "collapsible.tsx",
+    "command.tsx",
+    "console-page-wrapper.tsx",
+    "console-page.tsx",
+    "context-menu.tsx",
+    "data-export.tsx",
+    "dialog.tsx",
+    "drag-and-drop-uploader.tsx",
+    "drawer.tsx",
+    "dropdown-menu.tsx",
+    "enhanced-brain-control-panel.tsx",
+    "file-analysis-panel.tsx",
+    "form.tsx",
+    "hardware-monitor.tsx",
+    "hover-card.tsx",
+    "input-otp.tsx",
+    "input.tsx",
+    "integrated-llm-tensor-manager.tsx",
+    "label.tsx",
+    "menubar.tsx",
+    "model-selector.tsx",
+    "navigation-menu.tsx",
+    "notification-generator.tsx",
+    "notification-panel.tsx",
+    "notification-toast.tsx",
+    "popover.tsx",
+    "protected-route.tsx",
+    "qwen-tensor-manager.tsx",
+    "share-file-dialog.tsx",
+    "tensor-engine-status.tsx",
+    "tensor-manager.tsx",
+    "theme-provider.tsx",
+    "weather-widget.tsx",
+    "webgpu-tensor-manager.tsx"
+  ],
+  "components\\code": [
+    "code-generator.tsx"
+  ],
+  "components\\ui": [
+    "accordion.tsx",
+    "alert-dialog.tsx",
+    "alert.tsx",
+    "aspect-ratio.tsx",
+    "avatar.tsx",
+    "badge.tsx",
+    "breadcrumb.tsx",
+    "button.tsx",
+    "calendar.tsx",
+    "card.tsx",
+    "carousel.tsx",
+    "chart.tsx",
+    "checkbox.tsx",
+    "collapsible.tsx",
+    "command.tsx",
+    "context-menu.tsx",
+    "dialog.tsx",
+    "drawer.tsx",
+    "dropdown-menu.tsx",
+    "form.tsx",
+    "hover-card.tsx",
+    "input-otp.tsx",
+    "input.tsx",
+    "label.tsx",
+    "menubar.tsx",
+    "navigation-menu.tsx",
+    "pagination.tsx",
+    "popover.tsx",
+    "progress.tsx",
+    "radio-group.tsx",
+    "resizable.tsx",
+    "scroll-area.tsx",
+    "select.tsx",
+    "separator.tsx",
+    "sheet.tsx",
+    "sidebar.tsx",
+    "skeleton.tsx",
+    "slider.tsx",
+    "sonner.tsx",
+    "switch.tsx",
+    "table.tsx",
+    "tabs.tsx",
+    "textarea.tsx",
+    "toast.tsx",
+    "toaster.tsx",
+    "toggle-group.tsx",
+    "toggle.tsx",
+    "tooltip.tsx",
+    "use-mobile.tsx",
+    "use-toast.tsx"
+  ],
+  "components\\upload": [
+    "self-repairing-upload.tsx"
+  ],
+  "contexts": [
+    "auth-context.tsx",
+    "notification-context.tsx"
+  ],
+  "data": [
+    "shared-files.json"
+  ],
+  "hooks": [
+    "use-data.ts",
+    "use-mobile.tsx",
+    "use-qwen-tensor.ts",
+    "use-socket.ts",
+    "use-tensor-engine.ts",
+    "use-toast.ts",
+    "use-weather.ts",
+    "use-webgpu-tensor.ts"
+  ],
+  "lib": [
+    "agent-analyzer.ts",
+    "agent-registry.ts",
+    "api.ts",
+    "auth.ts",
+    "brain-controller.ts",
+    "export.ts",
+    "huggingface-client.ts",
+    "notification-service.ts",
+    "share-service.ts",
+    "tensor-client.ts",
+    "tensor-lm-studio-bridge.ts",
+    "utils.ts",
+    "weather-api.ts"
+  ],
+  "lib\\brain": [
+    "brain-controller.ts",
+    "enhanced-brain-controller.ts"
+  ],
+  "lib\\python": [
+    "brain_backend.py"
+  ],
+  "lib\\tensor-engine": [
+    "controller.ts",
+    "index.ts",
+    "setup.ts",
+    "webgpu-tensor-engine.ts"
+  ],
+  "lib\\tensor-system": [
+    "context-optimizer.ts",
+    "hardware-detection.ts",
+    "nvme-context-manager.ts",
+    "qwen-tensor-engine.ts",
+    "tensor-engine.ts"
+  ],
+  "public": [
+    "placeholder-logo.png",
+    "placeholder-logo.svg",
+    "placeholder-user.jpg",
+    "placeholder.jpg",
+    "placeholder.svg"
+  ],
+  "scripts": [
+    "setup-tensor.ts"
+  ],
+  "styles": [
+    "globals.css"
+  ],
+  "tensor-scripts": [
+    "analyze_model.py",
+    "stop_tensor.py",
+    "tensor_server_nvme.py",
+    "tensor_status.py"
+  ]
+}
